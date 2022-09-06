@@ -1,0 +1,55 @@
+/* Thick Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 20px;
+    height: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #ff850a, #ff3474);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+    background: #474747;
+}
+
+/* Thin Scroll Bar */
+/* 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #545454;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background: #303030;
+} */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #ff5e3c #474747;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    height: 70vh;
+}
+
+.section-1 {
+    background: rgb(113 0 177);
+}
+
+.section-2 {
+    background: rgb(75 0 132);
+}
+
+.section-3 {
+    background: #39025e;
+}
